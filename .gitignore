@@ -45,6 +45,7 @@ netlify
 
 .solid
 .vinxi
+.vercel
 
 public/sitemap.xml
 public/i18n-status

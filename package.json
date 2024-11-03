@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vinxi dev",
-		"build": "set NODE_OPTIONS=\"--max-old-space-size=8192\" vinxi build",
+		"build": "set NODE_OPTIONS=--max-old-space-size=8192 && vinxi build",
 		"start": "vinxi start"
 	},
 	"dependencies": {

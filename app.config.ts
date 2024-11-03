@@ -17,13 +17,7 @@ const { default: vinxiMdx } = pkg;
 
 export default defineConfig({
 	server: {
-		preset: "netlify",
-		prerender: {
-			crawlLinks: true,
-			autoSubfolderIndex: false,
-			failOnError: true,
-			ignore: [/\{\getPath}/, /.*?emojiSvg\(.*/],
-		},
+		preset: "vercel",
 	},
 	extensions: ["mdx", "md", "tsx"],
 	vite: () => ({
