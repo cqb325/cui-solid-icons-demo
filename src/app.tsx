@@ -8,7 +8,7 @@ export default function App() {
 	return <Router
 		root={(props) => (
 			<MetaProvider>
-				<Title>Solid Docs</Title>
+				<Title>CUI-Solid-Icons Docs</Title>
 				<ErrorBoundary fallback={<div>404</div>}>
 					<Suspense>{props.children}</Suspense>
 				</ErrorBoundary>
