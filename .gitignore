@@ -1,0 +1,50 @@
+.vscode/
+coverage/
+types/
+
+# only pnpm lockfile is versioned
+# so Netlify can infer correctly everytime.
+yarn.lock
+package-lock.json
+bun.lockb
+
+.turbo
+
+packages/create-solid/bin
+*.log
+
+dist
+worker
+.solid
+
+# dependencies
+node_modules
+
+# IDEs and editors
+.idea
+.project
+.classpath
+*.launch
+.settings/
+
+# Temp
+gitignore
+
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
+# Local Netlify folder
+.netlify
+# Netlify build dir
+netlify
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+.solid
+.vinxi
+
+public/sitemap.xml
+public/i18n-status
